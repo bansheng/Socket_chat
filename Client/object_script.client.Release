@@ -1,0 +1,15 @@
+INPUT(
+./release\clientwidget.o
+./release\findpassword.o
+./release\logindialog.o
+./release\main.o
+./release\register.o
+./release\sendfile.o
+./release\user_imformation.o
+./release\qrc_src.o
+./release\moc_clientwidget.o
+./release\moc_findpassword.o
+./release\moc_logindialog.o
+./release\moc_register.o
+./release\moc_sendfile.o
+);

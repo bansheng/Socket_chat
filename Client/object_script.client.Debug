@@ -1,0 +1,15 @@
+INPUT(
+./debug\clientwidget.o
+./debug\findpassword.o
+./debug\logindialog.o
+./debug\main.o
+./debug\register.o
+./debug\sendfile.o
+./debug\user_imformation.o
+./debug\qrc_src.o
+./debug\moc_clientwidget.o
+./debug\moc_findpassword.o
+./debug\moc_logindialog.o
+./debug\moc_register.o
+./debug\moc_sendfile.o
+);
