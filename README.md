@@ -25,11 +25,12 @@ tags: socket QT
 
 **客户端架构**
 ![客户端架构][id3]
+
 [id3]: https://github.com/bansheng/Socket_chat/blob/pic/pic/client.jpg
 
 **服务器架构**
 ![服务器架构][id4]
+
 [id4]: https://github.com/bansheng/Socket_chat/blob/pic/pic/server.jpg
 
 **************
-基于QT的socket通讯程序，实现文件可靠传输，支持点对点在线聊天和离线消息缓存，支持多人在线聊天。
