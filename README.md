@@ -1,4 +1,5 @@
-﻿# Socket_chat
+# Socket_chat
+
 tags: socket QT
 
 * [1.开发平台](#h1)
@@ -19,18 +20,14 @@ tags: socket QT
     7. 支持不少于两组用户同时在线交流和传输文件；
     8. 文件传输具有良好的性能，能够充分利用网路带宽；
 
-<h1 id="h3"> 基本架构 </h1>
+# 预期实现功能
 
-**************
+> + 服务器端在linux机器上完成，部署到云主机上
+>
+> + 服务器进程做成主机的服务进程
+>
+> + 数据库存储用户信息，支持用户注册找回密码，预计支持**邮件**找回密码
+> + 文件传输改为TCP，采用多线程传输
+> + 支持好友机制，支持图片发送
+> + 离线消息存入数据库，读取数据库
 
-**客户端架构**
-![客户端架构][id3]
-
-[id3]: https://github.com/bansheng/Socket_chat/blob/pic/pic/client.jpg
-
-**服务器架构**
-![服务器架构][id4]
-
-[id4]: https://github.com/bansheng/Socket_chat/blob/pic/pic/server.jpg
-
-**************
